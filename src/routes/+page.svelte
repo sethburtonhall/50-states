@@ -123,8 +123,8 @@
 			<div class="md:col-span-6">
 				<Map {data} on:stateClick={handleClick} />
 				<div class="sticky top-[88px]">
-					<div class="mb-4 flex items-center gap-4">
-						<div class="flex items-center justify-between gap-4">
+					<div class="mb-4 flex flex-col items-center gap-4 md:flex-row">
+						<div class="flex w-full items-center justify-between gap-4 md:w-1/3">
 							<h2 class="text-2xl font-bold">States Visited</h2>
 							<p
 								class={cn(
@@ -135,8 +135,10 @@
 								(click cards to remove)
 							</p>
 						</div>
-						<p class="ml-auto text-xl text-muted-foreground">{$visitedStates.length}</p>
-						<Progress value={$visitedPercentage} class="w-96" />
+						<div class="w-ful flex items-center gap-2 md:w-2/3">
+							<p class="text-xl text-muted-foreground">{$visitedStates.length}</p>
+							<Progress value={$visitedPercentage} />
+						</div>
 					</div>
 					<div class="h-[555px] overflow-y-auto">
 						<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
