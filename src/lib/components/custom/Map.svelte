@@ -20,7 +20,10 @@
 		const root = am5.Root.new('mapdiv');
 		const chart = root.container.children.push(
 			am5map.MapChart.new(root, {
-				projection: am5map.geoMercator(),
+				projection: am5map.geoAlbersUsa(),
+				panX: 'none',
+				panY: 'none',
+				wheelY: 'none',
 				minZoomLevel: 1,
 				maxZoomLevel: 1
 			})
@@ -29,23 +32,25 @@
 		// Modify the GeoJSON data
 		const modifiedGeoJSON = JSON.parse(JSON.stringify(am5geodata_usaHigh));
 
-		modifiedGeoJSON.features.forEach((feature) => {
-			if (feature.properties.name === 'Alaska') {
-				feature.geometry.coordinates = feature.geometry.coordinates.map((polygon) =>
-					polygon.map((coordinate) => [
-						coordinate[0] * 0.2 + 50, // Scale and adjust longitude
-						coordinate[1] * 0.2 - 30 // Scale and adjust latitude
-					])
-				);
-			} else if (feature.properties.name === 'Hawaii') {
-				feature.geometry.coordinates = feature.geometry.coordinates.map((polygon) =>
-					polygon.map((coordinate) => [
-						coordinate[0] * 1.5 - 10, // Scale and adjust longitude
-						coordinate[1] * 1.5 - 130 // Scale and adjust latitude
-					])
-				);
-			}
-		});
+		// modifiedGeoJSON.features.forEach((feature) => {
+		// 	if (feature.properties.name === 'Alaska') {
+		// 		feature.geometry.coordinates = feature.geometry.coordinates.map((polygon) =>
+		// 			polygon.map((coordinate) => [
+		// 				coordinate[0] * 0.35 + 170, // Scale and adjust longitude
+		// 				coordinate[1] * 0.35 - 50 // Scale and adjust latitude
+		// 			])
+		// 		);
+		// 		console.log('Alaska coordinates:', feature.geometry.coordinates);
+		// 	} else if (feature.properties.name === 'Hawaii') {
+		// 		feature.geometry.coordinates = feature.geometry.coordinates.map((polygon) =>
+		// 			polygon.map((coordinate) => [
+		// 				coordinate[0] * 1.5 - 160, // Scale and adjust longitude
+		// 				coordinate[1] * 1.5 - 20 // Scale and adjust latitude
+		// 			])
+		// 		);
+		// 		console.log('Hawaii coordinates:', feature.geometry.coordinates);
+		// 	}
+		// });
 
 		const polygonSeries = chart.series.push(
 			am5map.MapPolygonSeries.new(root, {

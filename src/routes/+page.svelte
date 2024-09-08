@@ -141,47 +141,47 @@
 					<div class="h-[555px] overflow-y-auto">
 						<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
 							{#each $sortedVisitedStates as state (state)}
-								<button type="button" on:click={() => toggleSelectedState(state)} class="text-left">
-									<Card class="cursor-pointer bg-muted p-1">
-										<CardContent class="flex flex-col gap-4 p-0">
-											<div>
-												<!-- State Name -->
-												<div
-													class="flex items-center justify-between gap-4 rounded-t-md bg-black pr-4"
-												>
-													<div class="flex h-12 w-12 items-center justify-center p-2">
-														<MapPinIcon class="h-7 w-7 text-muted-foreground" />
-													</div>
-													<h2 class="text-muted-foreground">{state.name}</h2>
+								<button type="button" on:click={() => toggleSelectedState(state)}>
+									<Card class="h-full cursor-pointer bg-muted p-1">
+										<CardContent class="flex h-full flex-col p-0">
+											<!-- State Name -->
+											<div
+												class="flex items-center justify-between gap-4 rounded-t-md bg-background pr-4"
+											>
+												<div class="flex h-12 w-12 items-center justify-center p-2">
+													<MapPinIcon class="h-7 w-7 text-muted-foreground" />
 												</div>
-												<div class="flex flex-col gap-4 rounded-b-md border-4 border-black p-4">
-													<div class="self-end">
-														<div class="text-lg italic text-muted-foreground">"{state.motto}"</div>
+												<h2 class="text-muted-foreground">{state.name}</h2>
+											</div>
+											<div
+												class="flex h-full flex-col gap-4 rounded-b-md border-4 border-background p-4"
+											>
+												<div class="self-end text-right">
+													<div class="text-lg italic text-muted-foreground">"{state.motto}"</div>
+												</div>
+												<!-- State Capital -->
+												<div class="mt-auto flex items-center gap-4">
+													<div
+														class="flex h-12 w-12 items-center justify-center rounded-md bg-muted p-2"
+													>
+														<FlagIcon class="h-7 w-7 text-muted-foreground" />
 													</div>
-													<!-- State Capital -->
-													<div class="flex items-center gap-4">
-														<div
-															class="flex h-12 w-12 items-center justify-center rounded-md bg-muted p-2"
-														>
-															<FlagIcon class="h-7 w-7 text-muted-foreground" />
-														</div>
-														<div>
-															<div class="text-lg font-semibold">Capital</div>
-															<div class="text-muted-foreground">{state.capital}</div>
-														</div>
+													<div>
+														<div class="text-lg font-semibold">Capital</div>
+														<div class="text-muted-foreground">{state.capital}</div>
 													</div>
-													<!-- State Population -->
-													<div class="flex items-center gap-4">
-														<div
-															class="flex h-12 w-12 items-center justify-center rounded-md bg-muted p-2"
-														>
-															<UsersIcon class="h-7 w-7 text-muted-foreground" />
-														</div>
-														<div>
-															<div class="text-lg font-semibold">Population</div>
-															<div class="text-muted-foreground">
-																{formattedPopulation(state.population)}
-															</div>
+												</div>
+												<!-- State Population -->
+												<div class="flex items-center gap-4">
+													<div
+														class="flex h-12 w-12 items-center justify-center rounded-md bg-muted p-2"
+													>
+														<UsersIcon class="h-7 w-7 text-muted-foreground" />
+													</div>
+													<div>
+														<div class="text-lg font-semibold">Population</div>
+														<div class="text-muted-foreground">
+															{formattedPopulation(state.population)}
 														</div>
 													</div>
 												</div>
