@@ -166,7 +166,7 @@
 															<FlagIcon class="h-7 w-7 text-muted-foreground" />
 														</div>
 														<div>
-															<div class="text-lg font-semibold">State Capital</div>
+															<div class="text-lg font-semibold">Capital</div>
 															<div class="text-muted-foreground">{state.capital}</div>
 														</div>
 													</div>
