@@ -1,10 +1,8 @@
 <script>
 	import '../app.css';
 
-	// custom components
 	import { ModeWatcher } from '$components';
 
-	// icons
 	import { MapPinned } from 'lucide-svelte';
 </script>
 
