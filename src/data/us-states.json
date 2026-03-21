@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "code": "AL",
+    "name": "Alabama",
+    "capital": "Montgomery",
+    "motto": "We dare defend our rights",
+    "population": 5024279
+  },
+  {
+    "id": 2,
+    "code": "AK",
+    "name": "Alaska",
+    "capital": "Juneau",
+    "motto": "North to the Future",
+    "population": 733391
+  },
+  {
+    "id": 3,
+    "code": "AZ",
+    "name": "Arizona",
+    "capital": "Phoenix",
+    "motto": "God enriches",
+    "population": 7378494
+  },
+  {
+    "id": 4,
+    "code": "AR",
+    "name": "Arkansas",
+    "capital": "Little Rock",
+    "motto": "The people rule",
+    "population": 3038999
+  },
+  {
+    "id": 5,
+    "code": "CA",
+    "name": "California",
+    "capital": "Sacramento",
+    "motto": "I have found it",
+    "population": 39937489
+  },
+  {
+    "id": 6,
+    "code": "CO",
+    "name": "Colorado",
+    "capital": "Denver",
+    "motto": "Nothing without providence",
+    "population": 5845526
+  },
+  {
+    "id": 7,
+    "code": "CT",
+    "name": "Connecticut",
+    "capital": "Hartford",
+    "motto": "He who transplanted still sustains",
+    "population": 3563077
+  },
+  {
+    "id": 8,
+    "code": "DE",
+    "name": "Delaware",
+    "capital": "Dover",
+    "motto": "Liberty and Independence",
+    "population": 990837
+  },
+  {
+    "id": 10,
+    "code": "FL",
+    "name": "Florida",
+    "capital": "Tallahassee",
+    "motto": "In God we trust",
+    "population": 21992985
+  },
+  {
+    "id": 11,
+    "code": "GA",
+    "name": "Georgia",
+    "capital": "Atlanta",
+    "motto": "Wisdom, Justice, Moderation",
+    "population": 10736059
+  },
+  {
+    "id": 12,
+    "code": "HI",
+    "name": "Hawaii",
+    "capital": "Honolulu",
+    "motto": "The life of the land is perpetuated in righteousness",
+    "population": 1412687
+  },
+  {
+    "id": 13,
+    "code": "ID",
+    "name": "Idaho",
+    "capital": "Boise",
+    "motto": "Let it be perpetual",
+    "population": 1826156
+  },
+  {
+    "id": 14,
+    "code": "IL",
+    "name": "Illinois",
+    "capital": "Springfield",
+    "motto": "State sovereignty, national union",
+    "population": 12659682
+  },
+  {
+    "id": 15,
+    "code": "IN",
+    "name": "Indiana",
+    "capital": "Indianapolis",
+    "motto": "The crossroads of America",
+    "population": 6745354
+  },
+  {
+    "id": 16,
+    "code": "IA",
+    "name": "Iowa",
+    "capital": "Des Moines",
+    "motto": "Our liberties we prize and our rights we will maintain",
+    "population": 3179849
+  },
+  {
+    "id": 17,
+    "code": "KS",
+    "name": "Kansas",
+    "capital": "Topeka",
+    "motto": "To the stars through difficulties",
+    "population": 2913314
+  },
+  {
+    "id": 18,
+    "code": "KY",
+    "name": "Kentucky",
+    "capital": "Frankfort",
+    "motto": "United we stand, divided we fall",
+    "population": 4499692
+  },
+  {
+    "id": 19,
+    "code": "LA",
+    "name": "Louisiana",
+    "capital": "Baton Rouge",
+    "motto": "Union, justice, confidence",
+    "population": 4645184
+  },
+  {
+    "id": 20,
+    "code": "ME",
+    "name": "Maine",
+    "capital": "Augusta",
+    "motto": "I direct",
+    "population": 1345790
+  },
+  {
+    "id": 21,
+    "code": "MD",
+    "name": "Maryland",
+    "capital": "Annapolis",
+    "motto": "Strong deeds, gentle words",
+    "population": 6083116
+  },
+  {
+    "id": 22,
+    "code": "MA",
+    "name": "Massachusetts",
+    "capital": "Boston",
+    "motto": "By the sword we seek peace, but peace only under liberty",
+    "population": 6976597
+  },
+  {
+    "id": 23,
+    "code": "MI",
+    "name": "Michigan",
+    "capital": "Lansing",
+    "motto": "If you seek a pleasant peninsula, look about you",
+    "population": 10045029
+  },
+  {
+    "id": 24,
+    "code": "MN",
+    "name": "Minnesota",
+    "capital": "St. Paul",
+    "motto": "The star of the North",
+    "population": 5700671
+  },
+  {
+    "id": 25,
+    "code": "MS",
+    "name": "Mississippi",
+    "capital": "Jackson",
+    "motto": "By valor and arms",
+    "population": 2989260
+  },
+  {
+    "id": 26,
+    "code": "MO",
+    "name": "Missouri",
+    "capital": "Jefferson City",
+    "motto": "Let the welfare of the people be the supreme law",
+    "population": 6169270
+  },
+  {
+    "id": 27,
+    "code": "MT",
+    "name": "Montana",
+    "capital": "Helena",
+    "motto": "Gold and silver",
+    "population": 1086759
+  },
+  {
+    "id": 28,
+    "code": "NE",
+    "name": "Nebraska",
+    "capital": "Lincoln",
+    "motto": "Equality before the law",
+    "population": 1952570
+  },
+  {
+    "id": 29,
+    "code": "NV",
+    "name": "Nevada",
+    "capital": "Carson City",
+    "motto": "All for our country",
+    "population": 3139658
+  },
+  {
+    "id": 30,
+    "code": "NH",
+    "name": "New Hampshire",
+    "capital": "Concord",
+    "motto": "Live free or die",
+    "population": 1371246
+  },
+  {
+    "id": 31,
+    "code": "NJ",
+    "name": "New Jersey",
+    "capital": "Trenton",
+    "motto": "Liberty and prosperity",
+    "population": 8936574
+  },
+  {
+    "id": 32,
+    "code": "NM",
+    "name": "New Mexico",
+    "capital": "Santa Fe",
+    "motto": "It grows as it goes",
+    "population": 2117522
+  },
+  {
+    "id": 33,
+    "code": "NY",
+    "name": "New York",
+    "capital": "Albany",
+    "motto": "Ever upward",
+    "population": 19440469
+  },
+  {
+    "id": 34,
+    "code": "NC",
+    "name": "North Carolina",
+    "capital": "Raleigh",
+    "motto": "To be, rather than to seem",
+    "population": 10611862
+  },
+  {
+    "id": 35,
+    "code": "ND",
+    "name": "North Dakota",
+    "capital": "Bismarck",
+    "motto": "Liberty and union, now and forever, one and inseparable",
+    "population": 779094
+  },
+  {
+    "id": 36,
+    "code": "OH",
+    "name": "Ohio",
+    "capital": "Columbus",
+    "motto": "With God, all things are possible",
+    "population": 11747694
+  },
+  {
+    "id": 37,
+    "code": "OK",
+    "name": "Oklahoma",
+    "capital": "Oklahoma City",
+    "motto": "Labor conquers all things",
+    "population": 3959353
+  },
+  {
+    "id": 38,
+    "code": "OR",
+    "name": "Oregon",
+    "capital": "Salem",
+    "motto": "She flies with her own wings",
+    "population": 4301089
+  },
+  {
+    "id": 39,
+    "code": "PA",
+    "name": "Pennsylvania",
+    "capital": "Harrisburg",
+    "motto": "Virtue, liberty, and independence",
+    "population": 12820878
+  },
+  {
+    "id": 41,
+    "code": "RI",
+    "name": "Rhode Island",
+    "capital": "Providence",
+    "motto": "Hope",
+    "population": 1056161
+  },
+  {
+    "id": 42,
+    "code": "SC",
+    "name": "South Carolina",
+    "capital": "Columbia",
+    "motto": "While I breathe, I hope",
+    "population": 5210095
+  },
+  {
+    "id": 43,
+    "code": "SD",
+    "name": "South Dakota",
+    "capital": "Pierre",
+    "motto": "Under God, the people rule",
+    "population": 903027
+  },
+  {
+    "id": 44,
+    "code": "TN",
+    "name": "Tennessee",
+    "capital": "Nashville",
+    "motto": "Agriculture and commerce",
+    "population": 6897576
+  },
+  {
+    "id": 45,
+    "code": "TX",
+    "name": "Texas",
+    "capital": "Austin",
+    "motto": "Friendship",
+    "population": 29472295
+  },
+  {
+    "id": 46,
+    "code": "UT",
+    "name": "Utah",
+    "capital": "Salt Lake City",
+    "motto": "Industry",
+    "population": 3282115
+  },
+  {
+    "id": 47,
+    "code": "VT",
+    "name": "Vermont",
+    "capital": "Montpelier",
+    "motto": "Freedom and Unity",
+    "population": 628061
+  },
+  {
+    "id": 48,
+    "code": "VA",
+    "name": "Virginia",
+    "capital": "Richmond",
+    "motto": "Thus always to tyrants",
+    "population": 8626207
+  },
+  {
+    "id": 49,
+    "code": "WA",
+    "name": "Washington",
+    "capital": "Olympia",
+    "motto": "By and by",
+    "population": 7797095
+  },
+  {
+    "id": 50,
+    "code": "WV",
+    "name": "West Virginia",
+    "capital": "Charleston",
+    "motto": "Mountaineers are always free",
+    "population": 1778070
+  },
+  {
+    "id": 51,
+    "code": "WI",
+    "name": "Wisconsin",
+    "capital": "Madison",
+    "motto": "Forward",
+    "population": 5851754
+  },
+  {
+    "id": 52,
+    "code": "WY",
+    "name": "Wyoming",
+    "capital": "Cheyenne",
+    "motto": "Equal Rights",
+    "population": 578759
+  }
+]

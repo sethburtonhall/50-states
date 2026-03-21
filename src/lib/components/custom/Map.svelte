@@ -17,6 +17,7 @@
 	onMount(() => {
 		loadVisitedStates();
 		loadSelectedStates();
+		console.log('onMount started');
 		const root = am5.Root.new('mapdiv');
 		const chart = root.container.children.push(
 			am5map.MapChart.new(root, {
